@@ -26,16 +26,16 @@ python3.10 -m pip install -r requirements.txt
 
 Currently, the checkpoints can be downloaded manually from Google Drive:
 
-[nlspel-step-1-ddp.pt](https://drive.google.com/file/d/1WPGKNhs-62VwbVVMmz6WD6usJ0RWTh1d/view?usp=drive_link)
+[nlspel-step-1-ddp.pt](https://drive.google.com/file/d/1WRN361ViQ-n9x5m17ifVugY83zYTxTFn/view?usp=drive_link)
 
-[nlspel-step-2.pt](https://drive.google.com/file/d/1PfxcnYBNeKFc6BUv9qbOVvYK655rY4w-/view?usp=drive_link)
+[nlspel-step-2.pt](https://drive.google.com/file/d/13Efh-FbIqCuTGftXU9wAi1066_uKENbn/view?usp=drive_link)
 
 After downloading, make sure to add these files to the .checkpoints folder (or create this folder manually in NLSpEL/SpEL/)
 
 Additionally, in order to continue fine-tuning the model, the following files should be downloaded and placed in SpEL/resources/data:
 
-[MULTINERD-dataset.tsv](https://drive.google.com/file/d/1mcy8VUbeqpJgy_7Va4rS-3jtjoEOXwBI/view?usp=drive_link)
-[multinerd_candidates.zip](https://drive.google.com/file/d/1EQ9EJZMUiT6-uICSAnzAuhhUrNDIwM7n/view?usp=drive_link)
+[MULTINERD-dataset.tsv](https://drive.google.com/file/d/1X4e6rz0OPH9GLhalSSkFSCrOzWzK1syt/view?usp=drive_link)
+[multinerd_candidates.zip](https://drive.google.com/file/d/1pjUgw1DkOexk2yMnIX_DxuNqDTpB3xqd/view?usp=drive_link)
 
 Afterwards, model can be used for inference like this:
 
